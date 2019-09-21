@@ -23,5 +23,6 @@ urlpatterns = [
     path('index/', views.index),
     path('home/', views.home),
     path('two/', include("two.urls")),
+    path('three/', include("three.urls")),
 
 ]
